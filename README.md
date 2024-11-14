@@ -5,7 +5,8 @@ Transcranial Ultrasound Stimulation Planning
 - MATLAB
 - Freesurfer 
 - FSL
-- 3Dslicer with IGT module installed
+- Connectome Workbench
+- SimNIBS for Python (simnibs)
 
 # Inputs
 Input variables in the config.yaml file that is within the UPTUS main folder. Make sure to name the final version with your updated paths as 'config.yaml'. 
