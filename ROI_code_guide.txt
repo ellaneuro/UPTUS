@@ -1,0 +1,34 @@
+Guidance for MNI codes for some Region of Interests
+
+ROIs and their corresponding MNI codes:
+Precentral gyrus (primary motor cortex): 1
+Supplementary motor area (SMA): 2
+Postcentral gyrus (primary somatosensory cortex): 3
+Superior parietal lobule: 4
+Inferior parietal lobule: 5
+Frontal eye fields: 6
+Dorsolateral prefrontal cortex (DLPFC): 7
+Ventromedial prefrontal cortex (VMPFC): 8
+Anterior cingulate cortex: 9
+Posterior cingulate cortex: 10
+Amygdala: 11
+Hippocampus: 12
+Nucleus accumbens (ventral striatum): 13
+Thalamus: 14
+Caudate nucleus: 15
+Putamen: 16
+Pallidum: 17
+Anterior insula: 18
+Posterior insula: 19
+Temporal pole (superior temporal gyrus): 20
+Fusiform gyrus: 21
+Occipital lobe (visual cortex): 22
+Inferior frontal gyrus (IFG): 23
+Medial prefrontal cortex: 24
+Middle frontal gyrus: 25
+Left nucleus accumbens: 26
+Right nucleus accumbens: 27
+Ventral anterior nucleus of the thalamus: 28
+Ventral posterolateral nucleus of the thalamus: 29
+Lateral occipital cortex: 30
+Medial occipital cortex: 31
