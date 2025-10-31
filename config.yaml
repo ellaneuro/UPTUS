@@ -1,0 +1,30 @@
+# Subject ID
+subject_id: "sub_006"
+
+# specify paths
+base_path: "/Users/ellasonnelid/UPTUS" # Path to UPTUS main folder
+matlab_root: "/Applications/MATLAB_R2024b.app" # Path to MATLAB root
+
+# specify the paths to T1w, T1w with fat suppression, and T2w
+paths:
+  T1w: "/Users/ellasonnelid/UPTUS/input/KP_T1w_sub_006.nii"
+  T1w_fs: 
+  T2w:
+  spm: "/Applications/spm12" 
+  output_directory: "/Users/ellasonnelid/UPTUS/output"
+  config_path: "/Users/ellasonnelid/UPTUS/config.yaml"  
+  simnibs_directory: "/Users/ellasonnelid/Applications/SimNIBS-4.1"     
+
+freesurfer: 
+  fs_directory: "/Applications/freesurfer/7.4.1/subjects" 
+  freesurfer_setup_script: "/Applications/freesurfer/7.4.1/SetUpFreeSurfer.sh"  # Path to FreeSurfer setup script
+  # Specify the ROI - see MNI list at the bottom of this file
+  roi: # see included file for MNI code guide UPTUS/configs/ROI_code_guide.txt
+    mni_code: 43 #43 rLV 58 rNacc
+    name: "rLV"
+  output_directory: "/Users/ellasonnelid/UPTUS/output/sub_006" # add sub_id here!
+
+transducer_placement:
+  max_distance: 90 # in mm
+  max_angle: 10 # in degrees 
+
