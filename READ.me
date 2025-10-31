@@ -1,0 +1,49 @@
+Process:
+1. Align images (T1w, T1w_fs, T2w) with kplan_prep 
+2. Coregister T1w_fs and T2w to T1w with coregister.py
+3. Run simnibs + pct script 
+4. run freesurfer script first tile with recon-all, nect times change the roi info 
+5. edit the ventricle to just use the very anterior part with edit_ventricle.py
+7. run PlanTUS on all 4 rois 
+8. run k-plan
+
+------------------------------------------------------------------------------------------------
+
+# Requirements
+- MATLAB
+- Freesurfer 
+- FSL
+
+# Inputs
+Input variables in the config.yaml file that is within the UPTUS main folder. Make sure to name the final version with your updated paths as 'config.yaml'. 
+
+# Running the Scripts
+
+You can run this project in various environments:
+- Linux/Mac: Open a terminal and navigate to the project directory.
+- Windows: Download FSL, choose Linux. 
+
+# Commands
+
+1. Navigate to the UPTUS directory. 
+2. make the zshell script executable by running "chmod +x main.sh"  
+3. run the wrapper script with "./main.sh"
+
+
+# Jupyter Notebook
+To run the scripts in a Jupyter notebook, use the `!` command prefix to execute shell commands:
+```python
+1. "!chmod +x main.sh"
+2. "!./main.sh"
+
+# User input
+The script will ask for COM coordinates from target and coordinates from the entry point
+
+# The output found in the UPTUS/output folder will contain 
+- sub-001.msh
+- roi_mesh.nii.gz
+- roi_coordinates.txt
+- pCT.nii
+
+# Next step is to run the PlanTUS package with the listed output files
+ 
