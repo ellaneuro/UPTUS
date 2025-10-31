@@ -27,7 +27,7 @@ Inferior frontal gyrus (IFG): 23
 Medial prefrontal cortex: 24
 Middle frontal gyrus: 25
 Left nucleus accumbens: 26
-Right nucleus accumbens: 27
+Right nucleus accumbens: 58
 Ventral anterior nucleus of the thalamus: 28
 Ventral posterolateral nucleus of the thalamus: 29
 Lateral occipital cortex: 30
